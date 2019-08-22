@@ -1,8 +1,9 @@
 ---
 layout: left-menu
-title: Storage of current components
+title: Storage introduction
 tagline: user documentation for ConCur using GitHub Pages
-description: ConCur Storage of current components
+description: ConCur Storage intro
+category: Storage
 order: 20
 ---
 

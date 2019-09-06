@@ -11,7 +11,7 @@ The ExcelAdapter is an external OutputAdapter as described in [Storage introduct
 
 The following features will be added to your JDemetra+ Installation:
 
-#### Loading data via excel for the ConCur Plug-In
+#### Loading data via Excel for the ConCur Plug-In
 Under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{DatasourceUpdateOptions}$ you will get the ExcelConnection.
 It will use the following metadata:
 
@@ -19,13 +19,13 @@ It will use the following metadata:
 |*Name*|*Description*|
 |excel.file|Absolut path to the Xlsx|
 |excel.sheet|Name of the worksheet|
-|excel.series|Name of the timeseries in the worksheet|
+|excel.series|Name of the time series in the worksheet|
 
-You can add the needed metadata to a timeseries with rightclick "Add Excel MetaData". Then you can change the information in the properties sheet ($\text{Windows} \rhd \text{Properties}$).
+You can add the needed metadata to a time series with rightclick "Add Excel MetaData". Then you can change the information in the properties sheet ($\text{Windows} \rhd \text{Properties}$).
 
 
-#### Write specific data from X13 to excel
+#### Write specific data from X13 to Excel
 
-The following timeseries can be writen to xlsx: A1a, A6(including A7), D10, D11, D12, D13. In $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{ExcelAdapter}$ you can select them.
+The following time series can be written to Excel: A1a, A6(including A7), D10, D11, D12, D13. In $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{ExcelAdapter}$ you can select them.
 
-To start the saving process you can select the items in the multidocument and rightclick "Save to Excel" or use $\text{Statistical Methods} \rhd \text{Save all MD to Excel}$ to save all items of all multidocuments to excel.
+To start the saving process you can select the items in the multidocument and rightclick "Save to Excel" or use $\text{Statistical Methods} \rhd \text{Save all MD to Excel}$ to save all items of all multidocuments to Excel.

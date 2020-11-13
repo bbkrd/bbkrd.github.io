@@ -43,4 +43,8 @@ This pages represent the documentation of the Bundesbank plug-ins found at [BBKR
     <td colspan="2"><a href="pages/transreg/">TransReg</a></td>
     <td>The plug-in TransReg allows the user to carry out grouping and centring of user-defined regression variables in JD+.</td>
   </tr>
+    <tr>
+    <td colspan="2"><a href="pages/xlsx2ws/">Xlsx2Ws</a></td>
+    <td>The plug-in Xlsx2Ws allows the converting of specific workspace information to a xlsx file and vice versa.</td>
+  </tr>
 </table>

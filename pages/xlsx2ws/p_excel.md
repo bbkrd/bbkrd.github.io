@@ -6,7 +6,7 @@ order: 100
 category: Provider
 ---
 
-**All options start with "p_"**, for readability it will be omitted.
+**All options start with "p[rov]\_"**, for readability it will be omitted.
 
 <table class="table table-bordered" id="excel">
  <thead>

@@ -24,22 +24,24 @@ which will be used for convenience in the sequel. In Equation \eqref{eq:MatNot},
 
 Grouping is the process of creating a set of period-specific daughter regression variables from a mother regression variable. The maximum number of groups allowed in this process is set automatically to $\tau$. For any daughter regression variable, the columns which should not be taken into account are treated as either zeros or NaN's, depending on the user's choice. Thus, separation of the figures for period $\tau$ from $\mathbf{X}$ as given in Equation \eqref{eq:MatNot} may create the two daughter variables
 
-\begin{equation\*}
-	\mathbf{X}\_1 = 
+<p>
+\begin{equation*}
+	\mathbf{X}_1 = 
 	\begin{pmatrix} 
-		x_{1, 1} & \cdots & x_{1, \tau - 1}  & 0.0 \\\
-		x_{2, 1} & \cdots & x_{2, \tau - 1} & 0.0 \\\
-		\vdots & \ddots & \vdots & \vdots \\\
+		x_{1, 1} & \cdots & x_{1, \tau - 1}  & 0.0 \\
+		x_{2, 1} & \cdots & x_{2, \tau - 1} & 0.0 \\
+		\vdots & \ddots & \vdots & \vdots \\
 		x_{n_1, 1} & \cdots & x_{n_{\tau - 1}, \tau - 1} & 0.0 
 	\end{pmatrix} 
-	\quad \text{and} \quad \mathbf{X}\_2 = 
+	\quad \text{and} \quad \mathbf{X}_2 = 
 	\begin{pmatrix} 
-		0.0 & \cdots & 0.0 & x_{1, \tau} \\\
-		0.0 & \cdots & 0.0 & x_{2, \tau} \\\
-		\vdots & \ddots & \vdots & \vdots \\\
+		0.0 & \cdots & 0.0 & x_{1, \tau} \\
+		0.0 & \cdots & 0.0 & x_{2, \tau} \\
+		\vdots & \ddots & \vdots & \vdots \\
 		0.0 & \cdots & 0.0 & x_{n_\tau, \tau} 
 	\end{pmatrix},
-\end{equation\*}
+\end{equation*}
+</p>
 
 see also Example <a href="#WorkDaysGr"><b>1</b></a> below.
 
@@ -157,22 +159,28 @@ Depending on the outcome of the pre-test, a verbal comment is displayed in the r
 
 For any original regression variable $\mathbf{X}$, the transformed variable centred around the global sample mean of $\mathbf{X}$ is obtained as:
 
-\begin{equation\*}
-	\mathbf{X}^\mathit{Cen}\_g =
-	\begin{pmatrix} x\_{1, 1} - \bar{\mathbf{X}}\_g & x\_{1, 2} - \bar{\mathbf{X}}\_g & \cdots & x\_{1, \tau} - \bar{\mathbf{X}}\_g \\\
-	x\_{2, 1} - \bar{\mathbf{X}}\_g & x\_{2, 2} - \bar{\mathbf{X}}\_g & \cdots & x\_{2, \tau} - \bar{\mathbf{X}}\_g \\\
-	\vdots & \vdots & \ddots & \vdots \\\
-	x\_{n\_1 ,1} - \bar{\mathbf{X}}\_g & x_{n\_2, 2} - \bar{\mathbf{X}}\_g & \cdots & x_{n\_\tau, \tau} - \bar{\mathbf{X}}_g \end{pmatrix},
-\end{equation\*}
+<p>
+\begin{equation*}
+	\mathbf{X}^\mathit{Cen}_g =
+	\begin{pmatrix} x_{1, 1} - \bar{\mathbf{X}}_g & x_{1, 2} - \bar{\mathbf{X}}_g & \cdots & x_{1, \tau} - \bar{\mathbf{X}}_g \\
+	x_{2, 1} - \bar{\mathbf{X}}_g & x_{2, 2} - \bar{\mathbf{X}}_g & \cdots & x_{2, \tau} - \bar{\mathbf{X}}_g \\
+	\vdots & \vdots & \ddots & \vdots \\
+	x_{n_1 ,1} - \bar{\mathbf{X}}_g & x_{n_2, 2} - \bar{\mathbf{X}}_g & \cdots & x_{n_\tau, \tau} - \bar{\mathbf{X}}_g \end{pmatrix},
+\end{equation*}
+</p>
 
 see also Example [2](#WorkDaysCenGl) below. Similarly, the transformed variable centred around the period-specific sample means of $\mathbf{X}$ is given by:
-\begin{equation\*}
-	\mathbf{X}^\mathit{Cen}\_{ps} =
-	\begin{pmatrix} x\_{1, 1} - \bar{\mathbf{X}}\_1 & x\_{1, 2} - \bar{\mathbf{X}}\_2 & \cdots & x\_{1, \tau} - \bar{\mathbf{X}}\_\tau \\\
-	x\_{2, 1} - \bar{\mathbf{X}}\_1 & x\_{2, 2} - \bar{\mathbf{X}}\_2 & \cdots & x\_{2, \tau} - \bar{\mathbf{X}}\_\tau \\\
-	\vdots & \vdots & \ddots & \vdots \\\
-	x\_{n\_1 ,1} - \bar{\mathbf{X}}\_1 & x\_{n\_2, 2} - \bar{\mathbf{X}}\_2 & \cdots & x\_{n\_\tau, \tau} - \bar{\mathbf{X}}\_\tau \end{pmatrix},
-\end{equation\*}
+
+<p>
+\begin{equation*}
+	\mathbf{X}^\mathit{Cen}_{ps} =
+	\begin{pmatrix} x_{1, 1} - \bar{\mathbf{X}}_1 & x_{1, 2} - \bar{\mathbf{X}}_2 & \cdots & x_{1, \tau} - \bar{\mathbf{X}}_\tau \\
+	x_{2, 1} - \bar{\mathbf{X}}_1 & x_{2, 2} - \bar{\mathbf{X}}_2 & \cdots & x_{2, \tau} - \bar{\mathbf{X}}_\tau \\
+	\vdots & \vdots & \ddots & \vdots \\
+	x_{n_1 ,1} - \bar{\mathbf{X}}_1 & x_{n_2, 2} - \bar{\mathbf{X}}_2 & \cdots & x_{n_\tau, \tau} - \bar{\mathbf{X}}_\tau \end{pmatrix},
+\end{equation*}
+</p>
+
 see also Example [3](#WorkDaysCenPS) below. For any grouped regression variable, these transformations are carried out only in the "active" periods and the NaN's, if introduced in the "inactive" periods, are replaced with zeros, see Example [4](#WorkDaysGrCenPS) below. Note that the latter replacement is also applied to missing values in both original and grouped regression variables.
 
 To carry out centring in a TransReg document, go to the **CENTRING** section of the specification panel and use the drop down menu **Sample mean** in order to specify the type of sample mean. The implemented options are summarised in Table [2](#table2). In case of centring around a global sample mean or period-specific sample means, the span used for calculating the selected sample mean can be further specified. To this end, click on **Calculation span**, use the drop down menu **Type** to select a span category and, if necessary, provide the requested information. The implemented span categories are summarised in Table [3](#table3). Eventually, confirm your choice by clicking on **Calculate** in the bottom line of the specification panel and the centred regression variable appears in the data panel under the following default name:

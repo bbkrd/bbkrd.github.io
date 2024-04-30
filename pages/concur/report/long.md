@@ -1,8 +1,8 @@
 ---
 layout: left-menu
 title: Long report
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur HTML output
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes HTML output
 order: 16
 category: Report
 ---

@@ -1,8 +1,8 @@
 ---
 layout: left-menu
 title: User defined Report
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur HTML output
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes HTML output
 order: 18
 category: Report
 ---

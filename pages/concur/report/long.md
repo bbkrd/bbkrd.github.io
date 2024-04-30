@@ -9,7 +9,8 @@ category: Report
 
 The long report starts with the content of the [short report](./short) and adds the following information:<br/>
 
-{: .table .table-bordered}
+|||
+|---|---|
 | *A1* | original series |
 | *A8* | outlier regressor |
 | *B1* | linearised series |

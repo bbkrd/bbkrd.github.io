@@ -1,8 +1,8 @@
 ---
 layout: left-menu
 title: Introduction
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur Introduction
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes Introduction
 order: 0
 ---
 

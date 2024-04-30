@@ -1,16 +1,17 @@
 ---
 layout: left-menu
 title: GUI
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur GUI
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes GUI
 order: 30
 ---
 
-The plug-in adds another node to the existing output nodes named ConCur. Here, the user can choose among three sub-nodes: Charts, CCA and Table, each of which contains helpful contents for working with controlled current adjustment.
+The plug-in adds another node to the existing output nodes named CompRes. Here, the user can choose among three sub-nodes: Charts, CCA and Table, each of which contains helpful contents for working with controlled current adjustment.
 
-The node ConCur contains:
+The node CompRes contains:
 
-{: .table .table-bordered}
+|||
+|---|---|
 | *Summary*            | Summary from the node Main results in the GUI of JDemetra+.       |
 | *Regression model*   | Table from the node Pre-processing in the GUI of JDemetra+.       |
 | *ARIMA model*        | Table from the node Pre-processing in the GUI of JDemetra+.       |
@@ -20,7 +21,8 @@ The node ConCur contains:
 <br/>                         
 The sub-node Charts contains:
 
-{: .table .table-bordered}
+|||
+|---|---|
 | *SA*       | Chart of the original series, trend, seasonally adjusted series and seasonally adjusted series (current).|
 | *Only SA*  | Chart of the original series, trend, seasonally adjusted series and only seasonally adjusted series. |
 | *S-I ratio*| Chart of S-I ratios of each period, ie the raw seasonal component, final seasonal component and final seasonal component (current). |
@@ -64,7 +66,7 @@ The sub-node CCA contains:
 </table>
 
 <br/>
-The sub-node Tables contains figures of pre-defined series and components:
+The sub-node Table contains figures of pre-defined series and components:
 
 <table class="table table-bordered">
 	<tr>

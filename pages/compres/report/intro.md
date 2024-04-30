@@ -11,10 +11,9 @@ category: Report
 
 A summary of the quality measures can be saved in a HTML report. The following ways are possible.
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Selection of SA-items* | Select SA-item(s), right mouse click and select "Create HTMLs"|
-| *Selection of Multidocuments*| $\text{Tools}  \rhd \text{Create HTML for selec}\text{ted multi-documents}$|
+| *Selection of Multidocuments*| $\text{Tools}  \rhd \text{Create HTML for selected multi-documents}$|
 | *All Multidocuments*| $\text{Tools}  \rhd \text{Create HTML for all multi-documents}$|
 
 
@@ -25,8 +24,7 @@ The folder in which the reports are saved can be specified by the user. The name
 
 Under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompResReport}$ you can find several options to customise your report.
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Auto correlation zoom* | Describes the maximum value for the auto correlation graph. The graph will be between 0 and this value. | 	
 | *Decimal places in tables* | The number of digits printed in the html report. | 	
 | *Tables timespan* | Timespan of tables in the report in years | 

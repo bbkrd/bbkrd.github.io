@@ -10,8 +10,7 @@ The plug-in adds another node to the existing output nodes named CompRes. Here, 
 
 The node CompRes contains:
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Summary*            | Summary from the node Main results in the GUI of JDemetra+.       |
 | *Regression model*   | Table from the node Pre-processing in the GUI of JDemetra+.       |
 | *ARIMA model*        | Table from the node Pre-processing in the GUI of JDemetra+.       |
@@ -21,8 +20,7 @@ The node CompRes contains:
 <br/>                         
 The sub-node Charts contains:
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *SA*       | Chart of the original series, trend, seasonally adjusted series and seasonally adjusted series (current).|
 | *Only SA*  | Chart of the original series, trend, seasonally adjusted series and only seasonally adjusted series. |
 | *S-I ratio*| Chart of S-I ratios of each period, ie the raw seasonal component, final seasonal component and final seasonal component (current). |

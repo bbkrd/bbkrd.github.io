@@ -15,8 +15,7 @@ The following features will be added to your JDemetra+ Installation:
 Under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{DatasourceUpdateOptions}$ you will get the ExcelConnection.
 It will use the following metadata:
 
-|||
-|---|---|
+{: .table .table-bordered}
 |*Name*|*Description*|
 |excel.file|Absolut path to the Xlsx|
 |excel.sheet|Name of the worksheet|

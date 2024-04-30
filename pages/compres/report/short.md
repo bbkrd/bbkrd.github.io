@@ -37,8 +37,7 @@ The HTML documents contain the following information.
 <br/>
 On the left hand side of the first page you find:
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Specification*        | Summary of user settings<br/>(Transform, Outlier detection, Outliers critical value,Regression variable, Trading days user-defined variable, ARIMA model, Forecast horizon, Sigmalimit, Seasonal filters, Trendfilter, Calendarsigma and Excludefcst)|
 | *Summary* | Summary from the node Main results in the GUI of JDemetra+.|
 | *Regression model* | Table from the node Pre-processing in the GUI of JDemetra+.|
@@ -47,8 +46,7 @@ On the left hand side of the first page you find:
 <br/>
 On the right hand side of the first page you find figures for:
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Series* | Figure with original series, seasonally adjusted and seasonally adjusted (current)|
 | *Autocorrelations*| Correlation diagram for the residuals.|
 | *Autoregressive spectrum* | Autoregressive spectrum of the original.|
@@ -57,8 +55,7 @@ On the right hand side of the first page you find figures for:
 <br/>
 The second page contains
 
-|||
-|---|---|
+{: .table .table-bordered}
 | *Table D.8b* | Matrix of the raw seasonal factors (D8) augmented with information on outliers and extreme values as well as the seasonal component and the seasonal component (current) for the last year, respectively.|
 | *Seasonally Adjusted*   | The period-to-period growth rates (PtP GR) of the seasonally adjusted series and the seasonally adjusted series (current).|
 | *S-I-Ratio* | Chart of S-I-ratio for the latest two periods including the raw seasonal component (dots), the seasonal component (blue line and the seasonal component (current) (red line).|

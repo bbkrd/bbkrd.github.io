@@ -23,7 +23,7 @@ To do so there are some conventions to follow. The first row has to contain the 
   </tr>
   <tr>
    <td>saitem</td>
-   <td>Name of the saitem (mandatory and unique)</td>
+   <td>Name of the saitem (<b>mandatory and unique</b>)</td>
   </tr>
   <tr>
    <td>providername</td>
@@ -37,6 +37,8 @@ To do so there are some conventions to follow. The first row has to contain the 
 </table>
 
 To specify additional information add headers starting with "p[rov]\_"(provider), "s[pec]\_"(specification) or "m[eta]\_"(metadata). More detailed information on implemented headers can be found in the navigation on the left. Everything not specified is not implemented at the moment e.g. TRAMO/SEATS.
+
+The name of the saitem in the workspace has to be given manually by the user or with a plug-in.
 
 To use the features go to File and choose from these actions:
 
@@ -62,3 +64,4 @@ To use the features go to File and choose from these actions:
   </tr>
  </tbody>
 </table>
+

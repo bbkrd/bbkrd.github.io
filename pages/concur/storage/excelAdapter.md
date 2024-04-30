@@ -1,8 +1,8 @@
 ---
 layout: left-menu
 title: ExcelAdapter
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur ExcelAdapter
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes ExcelAdapter
 category: Storage
 order: 21
 ---
@@ -11,7 +11,7 @@ The ExcelAdapter is an external OutputAdapter as described in [Storage introduct
 
 The following features will be added to your JDemetra+ Installation:
 
-#### Loading data via Excel for the ConCur Plug-In
+#### Loading data via Excel for the CompRes Plug-In
 Under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{DatasourceUpdateOptions}$ you will get the ExcelConnection.
 It will use the following metadata:
 

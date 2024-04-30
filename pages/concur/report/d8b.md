@@ -1,8 +1,8 @@
 ---
 layout: left-menu
 title: Just D8B
-tagline: user documentation for ConCur using GitHub Pages
-description: ConCur HTML output
+tagline: user documentation for CompRes using GitHub Pages
+description: CompRes HTML output
 order: 17
 category: Report
 ---

@@ -15,8 +15,8 @@ This pages represent the documentation of the Bundesbank plug-ins found at [BBKR
     <th>Short Description</th>
   </tr>
   <tr>
-    <td colspan="2"><a href="pages/concur/">ConCur</a></td>
-    <td>The plug-in ConCur supports the controlled current adjustment approach. It supports the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.</td>
+    <td colspan="2"><a href="pages/compres/">CompRes</a></td>
+    <td>The plug-in CompRes supports the controlled current adjustment approach. It supports the storage of the current components and offers graphical tools to compare forecasted and re-estimated figures. Furthermore, a pre-defined summary of the output containing the most important quality measures can be exported to HTML files.</td>
   </tr>
   <tr>
     <td style = "border-right: 0px" rowspan="4"><a href="pages/kix/">KIX</a></td>

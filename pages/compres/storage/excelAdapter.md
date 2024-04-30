@@ -17,7 +17,7 @@ It will use the following metadata:
 
 {: .table .table-bordered}
 |*Name*|*Description*|
-|excel.file|Absolut path to the Xlsx|
+|excel.file|Absolute path to the Xlsx|
 |excel.sheet|Name of the worksheet|
 |excel.series|Name of the time series in the worksheet|
 

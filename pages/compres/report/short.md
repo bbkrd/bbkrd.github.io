@@ -38,7 +38,8 @@ The HTML documents contain the following information.
 On the left hand side of the first page you find:
 
 {: .table .table-bordered}
-| *Specification*        | Summary of user settings<br/>(Transform, Outlier detection, Outliers critical value,Regression variable, Trading days user-defined variable, ARIMA model, Forecast horizon, Sigmalimit, Seasonal filters, Trendfilter, Calendarsigma and Excludefcst)|
+| *Recommendation* | Recommendation on how to proceed with the previously forecasted seasonal component, numerical parameter specification, Large movement, Extreme value.|
+| *Specification* | Summary of user settings<br/>(Transform, Outlier detection, Outliers critical value,Regression variable, Trading days user-defined variable, ARIMA model, Forecast horizon, Sigmalimit, Seasonal filters, Trendfilter, Calendarsigma and Excludefcst)|
 | *Summary* | Summary from the node Main results in the GUI of JDemetra+.|
 | *Regression model* | Table from the node Pre-processing in the GUI of JDemetra+.|
 | *ARIMA model* | Table from the node Pre-processing in the GUI of JDemetra+.|

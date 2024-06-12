@@ -15,12 +15,12 @@ A summary of the quality measures can be saved in an HTML report. The following 
 | *Selection of SA-items* | Select SA-item(s), right mouse click and select "Create HTMLs" |
 | *Selection of Multidocuments*| $\text{Tools}  \rhd \text{Create HTML for selected multi-documents}$ |
 | *All Multidocuments*| $\text{Tools}  \rhd \text{Create HTML for all multi-documents}$ |
-
+<br/>
 Moreover a tabular summary of all recommendations can be saved in an HTML report: 
 
 {: .table .table-bordered}
 | *All Multidocuments: Recommendations* | $\text{Tools}  \rhd \text{Create compRes Recommendations}$ |
-
+<br/>
 The folder in which the reports are saved can be specified by the user. The name of the HTML report is identical to the workspace or the SA-item name depending on the chosen output option. Should an HTML report with the same name already exist, the report  will be numbered consecutively.
 
 

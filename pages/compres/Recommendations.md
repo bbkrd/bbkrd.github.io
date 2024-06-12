@@ -14,7 +14,7 @@ This feature is useful when working with the controlled current seasonal adjustm
 Three different output results are possible: 
 
 {: .table .table-bordered}
-| *Recommendation* |* Meaning* |
+| *Recommendation* | * Meaning* |
 | *Check* | Check the specification of the SA-Item. |
 | *Update* | Switch to the new components. |
 | *Keep* | Continue with the current seasonal and calendar components. |

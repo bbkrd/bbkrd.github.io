@@ -14,10 +14,10 @@ This feature is useful when working with the controlled current seasonal adjustm
 Three different output results are possible: 
 
 {: .table .table-bordered}
-| *Recommendation* |*Meaning*|
-| *Check* |Check the specification of the SA-Item.|
-| *Update* |Switch to the new components.|
-| *Keep* |Continue with the current seasonal and calendar components.|
+| *Recommendation* |* Meaning* |
+| *Check* | Check the specification of the SA-Item. |
+| *Update* | Switch to the new components. |
+| *Keep* | Continue with the current seasonal and calendar components. |
 <br/>
 The recommendations are color-coded similar to a traffic light: Green for Keep, yellow for Update and red for Check.
 If no such recommendation can be given the output result Unknown is display in red.
@@ -37,6 +37,6 @@ For each SA-Item specifications can be changed in the properties sheet ($\text{W
 <br/> 
 #### Special Cases
 
-If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Data Source} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation.  
+If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation.  
 In case of constant seasonal factors (current), the recommendation can be overwritten so that it will always be Keep.
-In case the calendar factor (current) is missing, it can be assumed that seasonal adjustment happens without a calendar component. Otherwise the recommendation Unknown will be given.
+In case the calendar factor (current) is missing, seasonal adjustment without a calendar component is asumed. Otherwise the recommendation Unknown will be given.

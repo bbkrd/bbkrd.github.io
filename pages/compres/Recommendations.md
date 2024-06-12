@@ -13,17 +13,15 @@ This feature is useful when working with the controlled current seasonal adjustm
 
 Three different output results are possible: 
 
-
 {: .table .table-bordered}
 | *Recommendation* |*Meaning* |
 | *Check* | Check the specification of the SA-Item. |
 | *Update* | Switch to the new components. |
 | *Keep* | Continue with the current seasonal and calendar components. |
-
 <br/>
 The recommendations are color-coded similar to a traffic light: Green for Keep, yellow for Update and red for Check.
+<br/> 
 If no such recommendation can be given the output result Unknown is display in red.
-
 <br/> 
 #### Specifications
 

@@ -20,9 +20,9 @@ Three different output results are possible:
 | *Keep* | Continue with the current seasonal and calendar components. |
 
 <br/>
-The recommendations are color-coded similar to a traffic light: Green for Keep, yellow for Update and red for Check.
+The recommendations are color-coded similar to a traffic light: red for Check, yellow for Update and green for Keep.
 <br/>
-If no such recommendation can be given the output result Unknown is display in red.
+If no such recommendation can be given the output result Unknown is displayed in red.
 
 <br/> 
 #### Specifications

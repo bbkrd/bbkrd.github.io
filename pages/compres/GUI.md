@@ -41,11 +41,11 @@ The sub-node CCA contains:
 	</tr>
 	<tr>
 		<td><i>Seasonal Factor (current)</i></td>
-		<td>Final Seasonal Component (forecasted in the past and saved in database)</td>
+		<td>Final Seasonal Component (forecast in the past and saved in database)</td>
 	</tr>
 	<tr>
 		<td><i>Recommendation</i></td>
-		<td>Recommendation on how to proceed with the previously forecasted seasonal component, numerical parameter specification, Large movement, Extreme value.
+		<td>Recommendation on how to proceed with the previously forecast seasonal component, numerical parameter specification, Large movement, Extreme value.
 		</td>
 	</tr>
 	<tr>

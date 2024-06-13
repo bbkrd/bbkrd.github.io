@@ -34,4 +34,4 @@ Under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompResRe
 | *Tables timespan* | Timespan of tables in the report in years | 
 | *Graphics timespan* | Timespan of graphics in the report in years | 	
 | *Html count* | Either choose to create one or several html files for the items. | 	
-| *Report style* | More detailed descriptions for each style can be found on their individual pages. | 
+| *Report style* | A more detailed description of each style can be found on their individual pages. | 

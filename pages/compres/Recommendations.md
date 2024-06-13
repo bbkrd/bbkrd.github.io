@@ -6,8 +6,8 @@ description: CompRes Recommendations
 order: 40
 ---
 
-The Recommendation functionality by the compRes plugin helps with the decision of whether to keep or not to keep using the previously forecasted seasonal component. 
-This feature is useful when working with the controlled current seasonal adjustment regime. It compares two seasonal adjustment results. First, the results obtained when using a seasonal component that has been forecasted in the past. Second, the results obtained when using the seasonal component that has been estimated right now by JD+ given the latest available data.
+The Recommendation functionality by the CompRes plugin helps with the decision of whether to keep or not to keep using the previously forecast seasonal component. 
+This feature is useful when working with the controlled current seasonal adjustment regime. It compares two seasonal adjustment results. First, the results obtained when using a seasonal component that has been forecast in the past. Second, the results obtained when using the seasonal component that has been estimated right now by JD+ given the latest available data.
 <br/> 
 #### Outcome
 
@@ -27,7 +27,7 @@ If no such recommendation can be given the output result Unknown is displayed in
 <br/> 
 #### Specifications
 
-For each SA-Item specifications can be changed in the properties sheet ($\text{Windows} \rhd \text{Properties}$). To display the recommendation specification select the SA-Item(s), right mouse click and select $\text{CompRes Recommendations} \rhd \text{Add MetaData}$. To reset an SA-Item’s specification to the default setting select $\text{CompRes Recommendations} \rhd \text{Reset MetaData}$. If not specified, a default value will be applied.              
+For each SA-Item specifications can be changed in the properties sheet ($\text{Window} \rhd \text{Properties}$). To display the recommendation specification select the SA-Item(s), right mouse click and select $\text{CompRes Recommendations} \rhd \text{Add MetaData}$. To reset an SA-Item’s specification to the default setting select $\text{CompRes Recommendations} \rhd \text{Reset MetaData}$. If not specified, a default value will be applied.              
 
 {: .table .table-bordered}
 | *Name* |*Description* | *Default*|
@@ -39,6 +39,10 @@ For each SA-Item specifications can be changed in the properties sheet ($\text{W
 <br/> 
 #### Special Cases
 
-If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation.  
+If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation.
+<br/>   
 In case of constant seasonal factors (current), the recommendation can be overwritten so that it will always be Keep.
-In case the calendar factor (current) is missing, seasonal adjustment without a calendar component is assumed. Otherwise the recommendation Unknown will be given.
+<br/> 
+In case the calendar factor (current) is missing, seasonal adjustment without a calendar component is assumed. 
+<br/> 
+Otherwise the recommendation Unknown will be given.

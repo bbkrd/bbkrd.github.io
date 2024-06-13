@@ -39,7 +39,7 @@ For each SA-Item specifications can be changed in the properties sheet ($\text{W
 <br/> 
 #### Special Cases
 
-If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation.
+If you select one or both the checkboxes under $\text{Tools} \rhd \text{Options} \rhd \text{Demetra} \rhd \text{CompRes} \rhd \text{Recommendations: Special Cases}$ it might affect the recommendation. <br/> 
 In case of constant seasonal factors (current), the recommendation can be overwritten so that it will always be Keep.
 <br/> 
 In case the calendar factor (current) is missing, seasonal adjustment without a calendar component is assumed. 

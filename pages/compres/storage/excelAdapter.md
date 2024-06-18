@@ -21,7 +21,7 @@ It will use the following metadata:
 |excel.sheet|Name of the worksheet|
 |excel.series|Name of the time series in the worksheet|
 
-You can add the needed metadata to a time series with rightclick "Add Excel MetaData". Then you can change the information in the properties sheet ($\text{Windows} \rhd \text{Properties}$).
+You can add the needed metadata to a time series with rightclick "Add Excel MetaData". Then you can change the information in the properties sheet ($\text{Window} \rhd \text{Properties}$).
 
 
 #### Write specific data from X13 to Excel

@@ -23,7 +23,7 @@ The sub-node Charts contains:
 {: .table .table-bordered}
 | *SA*       | Chart of the original series, trend, seasonally adjusted series and seasonally adjusted series (current).|
 | *Only SA*  | Chart of the original series, trend, seasonally adjusted series and only seasonally adjusted series. |
-| *S-I ratio*| Chart of S-I ratios of each period, ie the raw seasonal component, final seasonal component and final seasonal component (current). |
+| *S-I ratio*| Final filters: Seasonal and trend filters. Chart of S-I ratios of each period, i.e. the raw seasonal component, final seasonal component and final seasonal component (current). |
 | *Seasonal* | Chart of the final seasonal component and the final seasonal component (current).|
 
 <br/>
@@ -31,35 +31,27 @@ The sub-node CCA contains:
 
 <table class="table table-bordered">
 	<tr>
-		<td><i>Specifications</i></td>
-        <td>Summary on users' input:
-			<ul>
-				<li>Sigmalimit</li>
-				<li>Seasonalfilters</li>
-				<li>Outliers critical value</li>
-				<li>Calendarsigma</li>
-			</ul>
+		<td><i>Table D8.B</i></td>
+        	<td>Matrix of the raw seasonal components (D8) augmented with information on outliers and extreme values as well as the seasonal component and the seasonal component (current) for the last year, respectively.
 		</td>
 	</tr>
 	<tr>
-		<td><i>Final filters</i></td>
-		<td>Seasonal and trend filters.</td>
+		<td><i>Seasonal Factor</i></td>
+		<td>Final Seasonal Component</td>
 	</tr>
 	<tr>
-		<td><i>MSR</i></td>
-		<td>Moving seasonality ratio of the irregular to the seasonal component on a period specific basis.</td>
+		<td><i>Seasonal Factor (current)</i></td>
+		<td>Final Seasonal Component (forecast in the past and saved in database)</td>
 	</tr>
 	<tr>
-		<td><i>I/C Ratio</i></td>
-		<td>Ratio of irregular to trend component.</td>
+		<td><i>Recommendation</i></td>
+		<td>Recommendation on how to proceed with the previously forecast seasonal component, numerical parameter specification, Large movement, Extreme value.
+		</td>
 	</tr>
 	<tr>
-		<td><i>Seasonality tests</i></td>
-		<td>F-Test for stable seasonality and F-Test for moving seasonality.</td>
-	</tr>
-	<tr>
-		<td><i>Heteroskedasticity</i></td>
-		<td>Cochran-test on equal variances within each period.</td>
+		<td><i>S-I-Ratios</i></td>
+		<td>Chart of S-I-ratio for the latest two periods including the raw seasonal component (dots), the seasonal component (blue line) and the seasonal component (current) (red line). Titles contain the period-to-period growth rates (PtP GR) of the seasonally adjusted series and the seasonally adjusted series (current).
+		</td>
 	</tr>
 </table>
 
@@ -75,10 +67,10 @@ The sub-node Table contains figures of pre-defined series and components:
 				<li>Trend component</li>
 				<li>Irregular component</li>
 				<li>Seasonally adjusted series</li>
-				<li>Seasonal component</li>
-				<li>Calendar component</li>
 				<li>Seasonally adjusted series (current)</li>
+				<li>Seasonal component</li>
 				<li>Seasonal component (current)</li>
+				<li>Calendar component</li>				
 				<li>Calendar component (current)</li>
 			</ul>
 		</td>
@@ -91,10 +83,10 @@ The sub-node Table contains figures of pre-defined series and components:
 				<li>Trend component</li>
 				<li>Irregular component</li>
 				<li>Seasonally adjusted series</li>
-				<li>Seasonal component</li>
-				<li>Calendar component</li>
 				<li>Seasonally adjusted series (current)</li>
+				<li>Seasonal component</li>
 				<li>Seasonal component (current)</li>
+				<li>Calendar component</li>
 				<li>Calendar component (current)</li>
 			</ul>
 		</td>

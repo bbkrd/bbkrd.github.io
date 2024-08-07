@@ -23,8 +23,9 @@ The TransReg plug-in allows the user to carry out grouping and centring of user-
 
 To illustrate the two transformations, we consider the monthly number of working days in Germany as reported in Table [1](#table1). These figures account for both national and regional public holidays as the latter are counted as partial working days. This is a fundamental assumption of the working-day model which applies to a large number of German economic indicators and is described in more detail in *Deutsche Bundesbank 2012*.
 
+<b>Table 1: Monthly number of working days in Germany</b>
+
 <table class="table table-bordered" id="table1">
-  <caption>Table 1: Monthly number of working days in Germany</caption>
   <thead>
     <tr>
       <th>Year</th>

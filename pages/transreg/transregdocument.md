@@ -18,7 +18,7 @@ in the **Workspace** window. Then the created document can be opened by double-c
 
 $$ \text{TransReg} \rhd \text{documents} \rhd \text{TransReg-Number}$$
 
-in the **Workspace** window and selecting **Rename**. For convenience, we subsequently use the name **MyTransReg** to refer to the TransReg document currently in use. Similarly, we will use **MyRegVar** as the default name of a user-defined regression variable.
+in the **Workspace** window and selecting **Rename...**. For convenience, we subsequently use the name **MyTransReg** to refer to the TransReg document currently in use. Similarly, we will use **MyRegVar** as the default name of a user-defined regression variable.
 
 ### General structure
 
